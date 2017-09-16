@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" href="css/reset.css" />
+		<link rel="stylesheet" href="css/nav.css" />
+		<link rel="stylesheet" href="iconfont/iconfont.css" />
+		<link rel="stylesheet" href="css/index.css"/>
+		<link rel="stylesheet" href="css/list.css"/>
+		<link rel="stylesheet" type="text/css" href="css/foot.css"/>
+		
+	</head>
+	<body>
+		<div id="top"></div>
+		<div class="banner-main">
+			<div  class="banner main">
+				<div id="container">
+					<ul>
+						<li style="display: block;"><img src="images/banner1.jpg"></li>
+						<li><img src="images/banner2.jpg"></li>
+						<li><img src="images/banner3.jpg"></li>
+						<li><img src="images/banner4.jpg"></li>
+						<li><img src="images/banner5.jpg"></li>
+					</ul>
+					<div id="pages">
+						<div class="current"></div>
+						<div></div>
+						<div></div>
+						<div></div>
+						<div></div>
+						
+					</div>
+					<div id="prev">&lt;</div>
+					<div id="next">&gt;</div>
+				</div>
+			</div>
+		</div>
+		
+		
+		<div class="banner-bottom-main">
+			<div class="banner-b-pic main"><a href="#"><img src="images/bag1.jpg" alt="" /></a><a href="#"><img src="images/bag2.jpg" alt="" /></a><a href="#"><img src="images/bag3.jpg" alt="" /></a></div>
+		</div>
+		
+		
+		
+		<div class="hot-goods-main">
+			<!--<div class="hot-goods main">
+				
+			</div>-->
+		</div>
+		
+		<script type="text/html" id="bags_all">
+		<%
+			for (var i = 0; i < goodsList.length; i++) {
+				var bagsList = goodsList[i];
+		%>
+			<div class="hot-goods main">
+				<h1>
+					<!--title-->
+					<a href="#">
+						<img src=<%=bagsList.title_pic%> />
+					</a>
+					<b>查看更多>></b>
+				</h1>
+				<div class="hot-top">
+					<div class="hot-top-left">
+						<!--左边广告图-->
+						<img src=<%=bagsList.left_pic%> />
+					</div>
+					<!--轮播图-->
+					<div class="hot-top-banner">
+						<ul class="pic">
+							<li> <a href=""><img src=<%=bagsList.car_pic1%>/></a></li>
+							<li> <a href=""><img src=<%=bagsList.car_pic2%>/></a></li>
+							<li> <a href=""><img src=<%=bagsList.car_pic3%>/></a></li>
+							<li> <a href=""><img src=<%=bagsList.car_pic4%>/></a></li>
+							
+							<li> <a href=""><img src=<%=bagsList.car_pic5%>/></a></li>
+							
+							
+							
+						</ul>
+						<!--轮播字幕-->
+						<div class="pages2">
+							<div class="orange"><a href="#"><%=bagsList.car_word1%></a></div>
+							<div ><a href="#"><%=bagsList.car_word2%></a></div>
+							<div ><a href="#"><%=bagsList.car_word3%></a></div>
+							<div ><a href="#"><%=bagsList.car_word4%></a></div>
+							<div ><a href="#"><%=bagsList.car_word5%></a></div>
+							
+						</div>
+					</div>
+				</div>
+				<div class="hot-bottom">
+					<!--底层商品列表-->
+					<ul class="hot-bot-pic">
+						<li>
+							<p><a href=""><img src=<%=bagsList.bot_list_pic1%> alt="" /></a></p>
+							<h4><a href=""><%=bagsList.bot_list_word1%></a></h4>
+							<h5 class="prices"><%=bagsList.bot_list_price1%></h5>
+						</li>
+						<li>
+							<p><a href=""><img src=<%=bagsList.bot_list_pic2%> alt="" /></a></p>
+							<h4><a href=""><%=bagsList.bot_list_word2%></a></h4>
+							<h5 class="prices"><%=bagsList.bot_list_price2%></h5>
+						</li>
+						<li>
+							<p><a href=""><img src=<%=bagsList.bot_list_pic3%> alt="" /></a></p>
+							<h4><a href=""><%=bagsList.bot_list_word3%></a></h4>
+							<h5 class="prices"><%=bagsList.bot_list_price3%></h5>
+						</li>
+						<li>
+							<p><a href=""><img src=<%=bagsList.bot_list_pic4%> alt="" /></a></p>
+							<h4><a href=""><%=bagsList.bot_list_word4%></a></h4>
+							<h5 class="prices"><%=bagsList.bot_list_price4%></h5>
+						</li>
+						<li>
+							<p><a href=""><img src=<%=bagsList.bot_list_pic5%> alt="" /></a></p>
+							<h4><a href=""><%=bagsList.bot_list_word5%></a></h4>
+							<h5 class="prices"><%=bagsList.bot_list_price5%></h5>
+						</li>
+						<li>
+							<p><a href=""><img src=<%=bagsList.bot_list_pic6%> alt="" /></a></p>
+							<h4><a href=""><%=bagsList.bot_list_word6%></a></h4>
+							<h5 class="prices"><%=bagsList.bot_list_price6%></h5>
+						</li>
+						<li>
+							<p><a href=""><img src=<%=bagsList.bot_list_pic7%> alt="" /></a></p>
+							<h4><a href=""><%=bagsList.bot_list_word7%></a></h4>
+							<h5 class="prices"><%=bagsList.bot_list_price7%></h5>
+						</li>
+						<li>
+							<p><a href=""><img src=<%=bagsList.bot_list_pic8%> alt="" /></a></p>
+							<h4><a href=""><%=bagsList.bot_list_word8%></a></h4>
+							<h5 class="prices"><%=bagsList.bot_list_price8%></h5>
+						</li>
+						<li>
+							<p><a href=""><img src=<%=bagsList.bot_list_pic9%> alt="" /></a></p>
+							<h4><a href=""><%=bagsList.bot_list_word9%></a></h4>
+							<h5 class="prices"><%=bagsList.bot_list_price9%></h5>
+						</li>
+						<li>
+							<p><a href=""><img src=<%=bagsList.bot_list_pic10%> alt="" /></a></p>
+							<h4><a href=""><%=bagsList.bot_list_word10%></a></h4>
+							<h5 class="prices"><%=bagsList.bot_list_price10%></h5>
+						</li>
+					</ul>
+				</div>
+			
+		</div>	
+		<%
+			}
+		%>
+	</script>
+	
+	<div class="hot-brand-main">
+		<div class="hot-brand main">
+			<p>热卖品牌</p>
+			<ul>
+				<li><a href=""><img src="images/pp11.jpg" alt="" /></a></li>
+				<li><a href=""><img src="images/pp2.jpg" alt="" /></a></li>
+				<li><a href=""><img src="images/pp3.jpg" alt="" /></a></li>
+				<li><a href=""><img src="images/pp4.jpg" alt="" /></a></li>
+				<li><a href=""><img src="images/pp5.jpg" alt="" /></a></li>	
+				<li><a href=""><img src="images/pp6.jpg" alt="" /></a></li>
+				
+			</ul>
+		</div>
+	</div>
+	
+	<div class="aside-floor">
+		<ul class="floor">
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+		</ul>
+	</div>
+	
+	
+	<div class="footer-main"></div>
+	<!--<div class="aside">
+		<ul>
+			<li><a href="#"><i></i>回顶部</a></li>
+			<li><a href="#"><i></i>在线咨询</a></li>
+			<li><a href="#"><i></i>购物车</a></li>
+			<li><a href="#"><i></i>二维码</a>
+				<img src="../images/ewm_02.png" />
+			</li>
+		</ul>
+	</div>-->
+	
+			
+		<script src="lib/jquery/jquery-1.12.4.min.js"></script>
+		<script src="lib/jquery_plugins/jquery.cookie.js"></script>
+		<script src="lib/arttemplate/template-native.js"></script>	
+		<script src="js/tools.js"></script>
+		<script src="js/nav-ajax.js"></script>
+		<!--<script src="../js/nav.js"></script>-->
+		<script src="js/carousel.js"></script>
+		<script src="js/footer.js"></script>
+		
+		
+	</body>
+</html>
+
+

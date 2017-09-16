@@ -1,0 +1,341 @@
+@charset "UTF-8";
+.girl-bag, .boy-bag, .play-bag, .anthoer {
+  position: relative;
+}
+
+.bag1, .bag2, .bag3, .bag4 {
+  position: absolute;
+  position: absolute;
+  left: 223px;
+  border: 1px solid #ccc;
+  box-shadow: 0px 3px 11px 4px #d9d9dc;
+  width: 730px;
+  display: none;
+  background: #fff;
+  z-index: 999;
+  min-height: 440px;
+}
+
+.categories-detail {
+  min-height: 440px;
+  width: 223px;
+  border: 1px solid #e5e5e5;
+  border-right: 1px solid #ccc;
+  position: absolute;
+  top: 35px;
+  left: 0;
+  background: #fff;
+  z-index: 999;
+}
+.categories-detail h1 {
+  color: #cb224e;
+  font-weight: 900;
+  font-size: 12px;
+  margin: 15px 0 11px 0;
+}
+
+.categories-detail dl {
+  width: 192px;
+}
+.categories-detail dl dd {
+  padding: 10px 0px 13px 20px;
+}
+.categories-detail dl dd a {
+  font-size: 13px;
+  font-weight: 700;
+  color: #333;
+  border: 0;
+}
+.categories-detail dl dt {
+  margin-left: 20px;
+  border-bottom: 1px solid #e5e5e5;
+}
+.categories-detail dl dt a {
+  color: #666;
+  display: inline-block;
+  margin-right: 1px;
+  margin-bottom: 11px;
+}
+.categories-detail dl dt a:hover {
+  color: #ca224e;
+}
+
+.categories-detail dd b {
+  display: inline-block;
+  height: 15px;
+  width: 15px;
+  float: right;
+  margin-top: 5px;
+  background: url(../images/icon-all.png) no-repeat -167px -22px;
+}
+
+.cata-group-btn1 i {
+  display: inline-block;
+  height: 20px;
+  width: 23px;
+  background: url(../images/icon-all.png) no-repeat;
+  background-position: -127px -345px;
+}
+
+.cata-group-btn2 i {
+  display: inline-block;
+  height: 20px;
+  width: 23px;
+  background: url(../images/icon-all.png) no-repeat;
+  background-position: -157px -344px;
+}
+
+.cata-group-btn3 i {
+  display: inline-block;
+  height: 20px;
+  width: 23px;
+  background: url(../images/icon-all.png) no-repeat;
+  background-position: -190px -344px;
+}
+
+.cata-group-btn4 i {
+  display: inline-block;
+  height: 20px;
+  width: 23px;
+  background: url(../images/icon-all.png) no-repeat;
+  background-position: -222px -343px;
+}
+
+.look-more a {
+  position: absolute;
+  bottom: 5px;
+  left: 63px;
+  font-size: 13px;
+  font-weight: 700;
+  font-family: "瀹嬩綋";
+  color: #666;
+}
+
+.bag1 {
+  top: -2px;
+}
+.bag1 .bag1-branch {
+  margin-left: 23px;
+}
+.bag1 .bag1-branch p {
+  border-top: 1px dashed #DDD;
+  border-left: 1px dashed #DDD;
+  width: 490px;
+}
+.bag1 .bag1-branch p a {
+  display: inline-block;
+  height: 97px;
+  width: 97px;
+  border-right: 1px dashed #DDD;
+  border-bottom: 1px dashed #DDD;
+}
+.bag1 .bag1-branch p a span {
+  display: block;
+  text-align: center;
+  padding-top: 8px;
+  color: #ddd;
+}
+.bag1 .bag1-word {
+  margin-left: 23px;
+}
+.bag1 .bag1-word div {
+  width: 320px;
+  margin-right: 30px;
+  border-bottom: 1px dashed #DDD;
+  float: left;
+}
+.bag1 .bag1-word div p {
+  height: 50px;
+}
+.bag1 .bag1-word div p a {
+  color: #323232;
+  padding-right: 12px;
+  line-height: 20px;
+  display: inline-block;
+}
+.bag1 .bag1-word div:nth-child(5) {
+  border: 0;
+}
+
+.bag2 {
+  top: -103px;
+}
+.bag2 .bag1-branch {
+  margin-left: 23px;
+}
+.bag2 .bag1-branch p {
+  border-top: 1px dashed #DDD;
+  border-left: 1px dashed #DDD;
+  width: 97px;
+}
+.bag2 .bag1-branch p a {
+  display: inline-block;
+  height: 97px;
+  width: 97px;
+  border-right: 1px dashed #DDD;
+  border-bottom: 1px dashed #DDD;
+}
+.bag2 .bag1-branch p a span {
+  display: block;
+  text-align: center;
+  padding-top: 8px;
+  color: #ddd;
+}
+.bag2 .bag1-word {
+  margin-left: 23px;
+}
+.bag2 .bag1-word div {
+  width: 320px;
+  margin-right: 30px;
+  border-bottom: 1px dashed #DDD;
+  float: left;
+}
+.bag2 .bag1-word div p {
+  height: 50px;
+}
+.bag2 .bag1-word div p a {
+  color: #323232;
+  padding-right: 12px;
+  line-height: 20px;
+  display: inline-block;
+}
+.bag2 .bag1-word div:nth-child(5) {
+  border: 0;
+}
+
+.bag3 {
+  top: -204px;
+}
+.bag3 .bag1-branch {
+  margin-left: 23px;
+}
+.bag3 .bag1-branch p {
+  border-top: 1px dashed #DDD;
+  border-left: 1px dashed #DDD;
+  width: 588px;
+}
+.bag3 .bag1-branch p a {
+  display: inline-block;
+  height: 97px;
+  width: 97px;
+  border-right: 1px dashed #DDD;
+  border-bottom: 1px dashed #DDD;
+}
+.bag3 .bag1-branch p a span {
+  display: block;
+  text-align: center;
+  padding-top: 8px;
+  color: #ddd;
+}
+.bag3 .bag1-word {
+  margin-left: 23px;
+}
+.bag3 .bag1-word div {
+  width: 320px;
+  margin-right: 30px;
+  border-bottom: 1px dashed #DDD;
+  float: left;
+}
+.bag3 .bag1-word div p {
+  height: 50px;
+}
+.bag3 .bag1-word div p a {
+  color: #323232;
+  padding-right: 12px;
+  line-height: 20px;
+  display: inline-block;
+}
+.bag3 .bag1-word div:nth-child(3) {
+  border: 0;
+}
+
+.bag4 {
+  top: -305px;
+}
+.bag4 .bag1-branch {
+  margin-left: 23px;
+}
+.bag4 .bag1-branch p {
+  border-top: 1px dashed #DDD;
+  border-left: 1px dashed #DDD;
+  width: 686px;
+}
+.bag4 .bag1-branch p a {
+  display: inline-block;
+  height: 97px;
+  width: 97px;
+  border-right: 1px dashed #DDD;
+  border-bottom: 1px dashed #DDD;
+}
+.bag4 .bag1-branch p a span {
+  display: block;
+  text-align: center;
+  padding-top: 8px;
+  color: #ddd;
+}
+
+.play-bag:hover {
+  border: 1px solid #ccc;
+  border-right: 1px solid #fff;
+  box-shadow: 0px 3px 11px 4px #d9d9dc;
+}
+.play-bag:hover dt {
+  border: 0;
+}
+.play-bag:hover dd b {
+  background-position: -183px -22px;
+}
+.play-bag:hover .bag3 {
+  display: block;
+  border-top: 0;
+}
+
+.girl-bag:hover {
+  border: 1px solid #ccc;
+  border-right: 1px solid #fff;
+  box-shadow: 0px 3px 11px 4px #d9d9dc;
+}
+.girl-bag:hover dt {
+  border: 0;
+}
+.girl-bag:hover dd b {
+  background-position: -183px -22px;
+}
+.girl-bag:hover .bag1 {
+  display: block;
+  border-top: 0;
+}
+
+.boy-bag:hover {
+  border: 1px solid #ccc;
+  border-right: 1px solid #fff;
+  box-shadow: 0px 3px 11px 4px #d9d9dc;
+}
+.boy-bag:hover dt {
+  border: 0;
+}
+.boy-bag:hover dd b {
+  background-position: -183px -22px;
+}
+.boy-bag:hover .bag2 {
+  display: block;
+  border-top: 0;
+}
+
+.anthoer:hover {
+  border: 1px solid #ccc;
+  border-right: 1px solid #fff;
+  box-shadow: 0px 3px 11px 4px #d9d9dc;
+}
+.anthoer:hover dt {
+  border: 0;
+}
+.anthoer:hover dd b {
+  background-position: -183px -22px;
+}
+.anthoer:hover .bag4 {
+  display: block;
+  border-top: 0;
+}
+
+/*# sourceMappingURL=list.css.map */

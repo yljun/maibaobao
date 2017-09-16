@@ -1,0 +1,217 @@
+
+$border:1px solid #e5e5e5;
+$bag-border:1px dashed #DDD;
+$b-shaw:1px solid #ccc;
+.girl-bag,.boy-bag,.play-bag,.anthoer{position: relative;}
+.bag1,.bag2,.bag3,.bag4{position: absolute;
+    position: absolute;
+    left: 223px;
+    border: 1px solid #ccc;
+    box-shadow: 0px 3px 11px 4px #d9d9dc;
+    width: 730px;
+    display: none;
+    background: #fff;
+    z-index: 999;
+    min-height: 440px;}
+.categories-detail{
+    min-height:440px;
+    width:223px;;
+    border:$border;
+    border-right:$b-shaw;
+    position: absolute;
+    top: 35px;
+    left: 0;
+    background: #fff;
+    z-index: 999;
+    h1{
+        color: #cb224e;
+        font-weight: 900;
+        font-size: 12px;
+        margin:15px 0 11px 0;
+    } 
+}
+.categories-detail dl{  width: 192px;
+    dd{
+        padding: 10px 0px 13px 20px;
+        a{
+        font-size: 13px;
+        font-weight: 700;
+        color: #333;
+        border: 0;
+        }
+    }
+    dt{ 
+        margin-left: 20px;
+        border-bottom: $border;
+        a{
+        color: #666;
+        display: inline-block;
+        margin-right: 1px;
+        margin-bottom: 11px;
+        
+        }
+        a:hover{color: #ca224e;}
+    }
+}
+
+@mixin _i{
+    display: inline-block;
+    height:20px ;
+    width:23px ;
+     background:url(../images/icon-all.png) no-repeat;
+}
+@mixin _b{
+    display: inline-block;
+    height:15px ;
+    width:15px ;
+    float: right;
+    margin-top: 5px;
+    background:url(../images/icon-all.png) no-repeat -167px -22px;
+}
+.categories-detail dd b{
+    @include _b
+} 
+.cata-group-btn1{
+    i{ @include _i;
+       background-position: -127px -345px;
+   }
+}
+.cata-group-btn2{
+    i{ @include _i;
+       background-position: -157px -344px;
+   }
+}
+.cata-group-btn3{
+    i{ @include _i;
+       background-position: -190px -344px;
+   }
+}
+.cata-group-btn4{
+    i{ @include _i;
+       background-position: -222px -343px
+   }
+}
+.look-more a{
+    
+    position: absolute;
+    bottom: 5px;
+    left: 63px;
+    font-size: 13px;
+    font-weight: 700;
+    font-family: "宋体";
+    
+    color: #666;
+}
+
+@mixin _bagpic{    
+                   border-top:$bag-border;
+                   border-left:$bag-border;
+                  
+                a{
+                    display:inline-block;
+                    height:97px;
+                    width: 97px;
+                    border-right: $bag-border;
+                    border-bottom: $bag-border;
+                    span{
+                        display: block;
+                        text-align: center;
+                       padding-top: 8px;
+                       color: #ddd;
+                    }
+                }
+    }
+ @mixin _bagword{
+                margin-left: 23px;
+               div{width: 320px;
+                   margin-right: 30px;
+                   border-bottom:$bag-border;
+                   float: left;
+                   p{
+                       height:50px;
+                       a{
+                           color: #323232;
+                           padding-right: 12px;
+                           line-height: 20px;
+                           display: inline-block;
+                       }
+                   }
+                   
+                }   
+}
+.bag1{
+    top:-2px;
+    .bag1-branch{
+        margin-left: 23px;
+        p{ @include _bagpic;
+         width: 490px;}
+    }
+    .bag1-word{
+             @include _bagword;
+             div:nth-child(5){border:0;} 
+    }
+}
+
+.bag2{
+   
+    top:-103px;
+    .bag1-branch{
+        margin-left: 23px;
+        p{ @include _bagpic;
+        width: 97px;}
+    }
+    .bag1-word{
+             @include _bagword;
+             div:nth-child(5){border:0;} 
+    }
+}
+.bag3{
+   
+    top:-204px;
+    .bag1-branch{
+        margin-left: 23px;
+        p{ @include _bagpic;
+            width: 588px;}
+    }
+    .bag1-word{
+             @include _bagword;
+             div:nth-child(3){border:0;} 
+    }
+}
+.bag4{
+     top:-305px;
+    .bag1-branch{
+        margin-left: 23px;
+        p{ @include _bagpic;
+            width:686px;}
+    }
+   
+}
+@mixin _bhover{
+     border: 1px solid #ccc;
+    border-right:1px solid #fff;
+    box-shadow: 0px 3px 11px 4px #d9d9dc;
+    dt{border: 0;}
+    dd b{background-position:-183px -22px;}
+}
+@mixin _btop{
+    display: block;
+    border-top: 0;
+}
+.play-bag:hover{
+    
+   @include _bhover;
+    .bag3{@include _btop } 
+}
+.girl-bag:hover{
+   @include _bhover;
+    .bag1{@include _btop } 
+}
+.boy-bag:hover{
+   @include _bhover;
+    .bag2{@include _btop } 
+}
+.anthoer:hover{
+   @include _bhover;
+    .bag4{@include _btop} 
+}

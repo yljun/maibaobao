@@ -1,0 +1,219 @@
+.attention{
+	height: 206px;
+	/*border-bottom: 1px solid;*/
+}
+.attention .m-pic{
+	float: left;
+	margin-top: 60px;
+}
+.attention .m-wb{
+	float: right;
+}
+.attention ul{
+	margin: 66px 0 20px 0;
+	
+	height: 124px;
+	border-left: 1px solid #dedede;
+	width: 314px;
+	
+}
+.attention ul li{
+	margin-top: 45px;
+	float: left;
+	height: 28px;
+	
+	line-height: 28px;
+}
+.attention ul li a{
+	color: #939393;
+	height: 28px;
+	display: inline-block;
+	margin: 0 10px;
+	
+}
+.attention ul li:nth-child(3){
+	border-right: 1px solid #e3e3e3;
+	border-left: 1px solid #e3e3e3;
+}
+.attention ul li:nth-child(1){margin-left: 46px;}
+.attention ul li:nth-child(2) a{
+	width: 32px;
+	background: url(/images/icon-all.png) no-repeat  0 -87px;
+}
+.attention ul li:nth-child(3) a{
+	width: 32px;
+	background: url(/images/icon-all.png) no-repeat  -38px -87px;
+}
+.attention ul li:nth-child(4) a{
+	width: 32px;
+	background: url(/images/icon-all.png) no-repeat  -77px -87px;
+}
+.attention ul li:nth-child(2){position:relative ;}
+.attention ul li:nth-child(2) .weixin{
+	position: absolute;
+	top: -297px;
+    left: -114px;
+    z-index: 100;
+    display: none;
+	
+}
+.attention ul li:nth-child(2):hover .weixin{
+	display: block;
+}
+.bottom-ico{
+	height: 58px;
+	overflow: hidden;
+    clear: both;
+    background: #e61e56;
+   
+}
+.bottom-ico ul{
+	height: 30px;
+	line-height: 30px;
+	color: #333;
+	 margin-top: 18px;
+}
+.bottom-ico ul li{
+	float: left;
+	
+	width: 240px;
+    text-align: center;
+    border-right: 1px solid #ec6088
+}
+.bottom-ico ul li:nth-child(1){padding-left: 115px;}
+.bottom-ico ul li:nth-child(4){border: 0;}
+
+.bottom-ico ul li a{
+	background: url(/images/icon-all.png) no-repeat;
+	 height: 25px;
+      display: inline-block;
+      overflow: hidden;
+     
+}
+
+.bottom-ico ul li:nth-child(1) a{
+	  width: 76px;
+	 margin: 0 80px;
+	 background-position: 0 -234px;
+}
+.bottom-ico ul li:nth-child(2) a{
+	
+	width: 111px;
+    background-position: -122px -260px;
+}
+.bottom-ico ul li:nth-child(3) a{
+	width: 118px;
+    background-position: 0 -260px;
+}
+.bottom-ico ul li:nth-child(4) a{
+	width: 93px;
+    background-position: -157px -208px;
+}
+.links-main{
+	margin-top: 25px;
+	padding-bottom: 55px;
+	height: 93px;
+	border-bottom: 1px solid #dedede;
+	border-top: 1px solid #dedede;
+	
+	
+	
+}
+
+.links1 .link-lists .prod{
+	   height: 93px;
+	    border-right: 1px solid #dedede;
+	    float: left;
+	     margin-top: 25px;
+	     width: 13.2%;
+	    
+}
+.links1 .link-lists .prod div{
+	margin: 0 0px 8% 20%;
+	/*display: block;*/
+}
+.links1 .link-lists .prod  a{color: #999;}
+.links1 .link-lists .prod .id a{
+	color: #333;
+}
+.links1 .link-lists .prod a:hover{
+	color: #d41c4;
+	text-decoration: underline;
+}
+.links1 .tel-us{
+	 margin-top: 25px;
+	float: right;
+	width: 190px;
+    height: 93px;
+   /* margin-left: 30px;*/
+    background: url(/images/icon-all.png) 0 -114px no-repeat;
+   
+}
+.links1 .tel-us p{
+	text-indent: 65px;
+    font-weight: 700;
+    color: #fff;
+    line-height: 35px;
+    padding-top: 57px;
+    bottom: 0;
+    font-size: 14px;
+}
+.copyright{margin-bottom: 50px;}
+.copyright p{
+	text-align: center;
+	 color: #999;
+	padding-top: 20px;
+	}
+
+	
+
+.copyright .link-icon{
+	text-align: center;
+	
+	padding-top: 25px;
+	
+}
+.copyright .link-icon a{
+	color:#999;	
+}
+.copyright .link-icon a:nth-child(1){
+	padding-right: 6px;
+}
+
+.copyright .link-icon span{
+	display: inline-block;
+	height: 52px;
+	width: 344px;
+}
+.copyright .link-icon span a{
+	display: inline-block;
+	 background: url(/images/icon-all.png) no-repeat; 
+	 margin: 0 5px;}
+.copyright .link-icon span a:nth-child(1){
+	width: 69px;
+    height: 33px;
+    background-position: -116px -82px;
+}
+.copyright .link-icon span a:nth-child(2){
+	width: 40px;
+    height: 33px;
+    background-position: -159px -46px;
+}
+.copyright .link-icon span a:nth-child(3){
+	width: 49px;
+    height: 49px;
+    background-position: -106px -2px
+	
+}
+.copyright .link-icon span a:nth-child(4){
+	width: 38px;
+    height: 37px;
+    background-position: -63px -26px;
+}
+.copyright .link-icon span a:nth-child(5){
+	width: 49px;
+    height: 49px;
+    background-position: -2px -594px;
+	
+}
+

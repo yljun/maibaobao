@@ -1,0 +1,15 @@
+html,body,p,ul,li,ol,li,dl,dt,dd,h1,h2,h3,h4,h5,h6,form,fieldset,legend,img,input,a,button{padding:0;margin:0;}
+body{font-size: 12px;}
+img,fieldset{border:none;}
+a{text-decoration: none;color: #000;}
+ul li{list-style: none;}
+h1,h2,h3,h4,h5,h6{font-weight: normal;}
+em,i{font-style:normal;}
+input{outline: none;}
+
+body,html{height: 100%;}
+.main{width: 1200px;
+margin:0 auto ;}
+.loginmain{width: 860px;
+margin:0 auto ;
+}

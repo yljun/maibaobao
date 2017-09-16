@@ -1,0 +1,94 @@
+
+		<!--<link rel="stylesheet" type="text/css" href="../css/foot.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/reset.css"/>-->
+	
+		<div attention-main>
+			<div class="attention main">
+				<div class="m-pic">
+					<img src="/images/code.png" />
+				</div>
+				<div class="m-wb">
+					<ul>
+						<li><a href="#">关注麦包包:</a></li>
+						<li>
+							<a href="#"></a>
+							<img class="weixin" src="/images/weixin.png" />
+							
+						</li>
+						<li><a href="#"></a></li>
+						<li><a href="#"></a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<!--10天保换-->
+		<div class="bottom-ico-main">
+			<div class="bottom-ico main">
+				<ul>
+					<li><a href=""></a></li>
+					<li><a href=""></a></li>
+					<li><a href=""></a></li>
+					<li><a href=""></a></li>
+				</ul>
+			</div>
+		</div>
+		
+		<div class="links-main">
+			<div class="links1 main">
+				<div class="link-lists"></div>
+				<div class="tel-us">
+					<p><a href="#">联系客服</a></p>
+				</div>
+			</div>
+		</div>
+		<script type="text/html" id="prod_temp">
+		<%
+			for (var i = 0; i < links.length; i++) {
+				var prod = links[i];
+		%>
+		<div class="prod">
+			<div class="id"><a href="#"><%= prod.id1 %></a></div>
+			<div class="name"><a href="#"><%= prod.id2 %></a></div>
+			<div class="price"><a href="#"><%= prod.id3 %></a></div>
+			<div class="desc"><a href="#"><%= prod.id4 %></a></div>
+		</div>
+		<%
+			}
+		%>
+	</script>
+	
+	<div class="copyright main">
+		<p>©2007-2014 Mbaobao All Rights Reserved. 嘉兴市麦包包网络科技有限公司 版权所有，
+			禁止非法复制 经营许可证编号： 经营许可证编号：浙B2-20100425
+		</p>
+		<h4 class="link-icon">
+			<a href="#">服务条款</a>
+			<a href="#">网站制度</a>
+			<span>
+				<a href="#"></a>
+				<a href="#"></a>
+				<a href="#"></a>
+				<a href="#"></a>
+				<a href="#"></a>
+			</span>
+			<a href="#">网站导航</a>
+		</h4>
+	</div>
+	
+	
+	
+	<script src="/lib/jquery/jquery-1.12.4.min.js"></script>
+	<script src="/lib/jquery_plugins/jquery.cookie.js"></script>
+	<script src="/lib/arttemplate/template-native.js"></script>
+	<!--<script>
+	$(function(){
+			// 从 mock/products.json 文件中加载商品数据
+			$.getJSON("../mock/products.json", function(data){
+				// 渲染模板
+				var html = template("prod_temp", {links:data});
+				// 显示
+				$(".link-lists").html(html);
+			});
+		});
+	</script>-->
+	

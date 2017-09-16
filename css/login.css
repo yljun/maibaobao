@@ -1,0 +1,155 @@
+.top-loginmian{
+	height: 84px;
+	border-bottom: 3px solid #ed1c24;
+}
+/*.top{overflow: hidden;}*/
+.top p{
+	float: left;
+}
+.top p a{margin-top: 24px;
+display: block;}
+
+.top .top-right{float: right;
+				margin-top: 57px;
+				color: #888;}
+.top .top-right a{
+	color: #888;
+	padding-left: 3px;
+}
+.login-cont{
+	margin-top: 58px;
+	overflow: hidden;
+}
+.login-cont .login-pic{
+	float: left;
+}
+.login-cont .login-box{
+	float: right;
+	border: 1px solid #e1e1e1;
+	width: 362px;
+	min-height: 300px;
+	background: #f5f5f5;
+}
+.login-cont .login-in{
+	margin: 30px 0 0px 30px;
+	width: 330px;
+	
+}
+
+.login-in .login-title{
+	height: 32px;
+	border-bottom: 1px dotted #e1e1e1;
+	width: 307px;
+	}
+
+.login-in .login-title p{
+	float: left;
+    font-size: 14px;
+    font-weight: 900;
+    
+}
+.login-in .login-title div{
+	float: right;
+	
+}
+.login-in .login-title div span{color: #666;}
+.login-in .login-title div a{color: #f00;}
+.login-in  .inpt{margin-top: 5px;}
+/*.login-in  .inpt .name p{
+ 	display:none;
+	
+}*/
+.login-in  .inpt .name .name-inpt,.pasw-input{height: 28px;
+					width: 180px;
+					 border: 1px solid #e1e1e1;
+					display: inline-block;
+					background: #fff;
+					
+					}
+.login-in  .inpt .name .name-inpt input,.pasw-input input{border: 0;
+			padding: 6px 0 0 6px;
+}
+.login-in  .inpt .name-info i,.pasw i{
+	color: #666;
+    font-size: 14px;
+    margin: 3px 0 0;
+    float: left;
+    display: inline-block;
+    
+}
+.pasw a{
+	color: #f00;
+    font-size: 12px;
+     margin: 3px 0 0;
+}
+.name-info{margin-top: 25px;
+padding-left: 14px;}
+.pasw{
+	margin-top: 15px;
+}
+.but{
+	width: 96px;
+	height: 30px;
+	background: #ff0000;
+	margin: 15px 0 30px 70px;
+}
+.but button{border: 0;
+background: #ff0000;
+color: #fff;
+margin: 6px 0 30px 10px;
+cursor: pointer;
+}
+.but a{display: block;
+		width: 96px;
+		height: 30px;
+		background: url(../images/login_single_page.png) no-repeat  77px -166px;
+		}
+.pataner {
+	color: #666;	
+}
+.pataner p{margin-bottom:12px;}
+.pataner ul{
+	overflow:hidden;
+	
+}
+.pataner ul li{
+	float: left;
+	margin-right: 5px;
+}
+.pataner ul li a{display: inline-block;
+background: url(../images/login_single_page.png) no-repeat;
+	color: #666;	
+}
+.pataner ul li:nth-child(1) a{
+	height: 19px;
+	width: 73px;
+	background-position:0 -42px;
+	
+}
+.pataner ul li:nth-child(2) a{
+	padding-left:20px;
+	height: 16px;
+	background: url(../images/qq.png) no-repeat 2px 0px;
+}
+.pataner ul li:nth-child(3) a{
+	padding-left:20px;
+	background-position: 0 -81px ;
+}
+.pataner ul li:nth-child(4) a{
+	padding-left:20px;
+	background-position: 0 -209px;
+}
+.pataner ul li:nth-child(5) a{
+	padding-left:20px;
+	background-position:  0 -112px;
+}
+.info1,.info2{color: #f00;
+    padding: 0px 0 0px 30px;
+    height: 20px;
+    background: url(../images/login_single_page.png) no-repeat 0 1px;
+    display: none;
+}
+.info1{margin: 13px 0;}
+.info2{margin-bottom: 15px; }
+
+

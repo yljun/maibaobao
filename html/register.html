@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" href="../css/reset.css" />
+		<link rel="stylesheet" href="../css/nav.css" />
+		<link rel="stylesheet" type="text/css" href="../css/list.css"/>
+		<link rel="stylesheet" href="../iconfont/iconfont.css" />
+		<link rel="stylesheet" type="text/css" href="../css/register.css"/>
+	</head>
+	<body>
+		<div id="top"></div>
+		
+			<div class="cont main">
+				<div class="cont-top">
+					<p>欢迎注册麦包包网站</p>
+				</div>
+				<div class="cont-register main">
+					<form>
+						<div class="phone">
+							<i>手机号码：</i>
+							<div class="ph-box">
+								<input type="text" />
+							</div>
+							<b>请正确填写11位手机号码并进行验证</b>
+							<strong>手机号码格式错误，请重新填写</strong>
+						</div>
+						<div class="passw">
+							<i>设置密码：</i>
+							<div class="pa-box">
+								<input type="password" />
+							</div>
+							<b>请填写6-20位密码，可以使用数字和字母组合</b>
+							<strong>格式错误，使用6-20位数字或字母组合</strong>
+						</div>
+						<div class="ensur-passw ">
+							<i>确认密码：</i>
+							<div class="en-pa-box">
+								<input type="password" />
+							</div>
+							
+							<b>请填写6-20位密码，可以使用数字和字母组合</b>
+							<strong>两次密码输入不一致，请重新输入</strong>
+							
+							
+						</div>
+						<div class="ensur-code">
+							<i>验证码：</i>
+							<div class="code-all">
+								<div class="but-box">
+									<a href="#">免费获取短信验证码</a>
+									<em></em>
+								</div>
+								<div class="code-input">
+									<input type="text" />
+								</div>
+								<b>请填写短信验证码</b>
+								<strong>验证码错误</strong>
+							</div>
+							
+							<div class="code-pic" style="display: none;">
+								<div class="code-pic-input">
+									<input type="text" />
+								</div>
+								<span>验证码图片</span>
+								<a href="#" class="change">换一张</a>
+								<a href="#" class="send-code">确定发送</a>
+							</div>
+								
+						</div>
+						<div class="sub">
+							<button>提交注册</button>	
+							<em></em>
+						</div>
+						<div class="chck">
+							<input type="checkbox" checked="checked"/>
+							<em> 我已阅读并同意 <a href="#">《麦包包用户服务协议》</a></em>
+						</div>
+					</form>
+				</div>
+			</div>
+			
+	<script src="../lib/requirejs/require.js" data-main="../js/register"></script>
+		
+		<!--<script src="../lib/jquery/jquery-1.12.4.min.js"></script>-->
+		<!--<script src="../lib/arttemplate/template-native.js"></script>-->	
+		<!--<script src="../js/tools.js"></script>-->
+		<!--<script src="../js/nav-ajax.js"></script>-->
+		<!--<script src="../js/register.js"></script>-->
+		
+		
+		
+	</body>
+</html>

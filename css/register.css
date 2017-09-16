@@ -1,0 +1,139 @@
+.main{width: 960px;}
+.cont{
+	height: 290px;
+}
+.cont-top{height:41px ;
+border-bottom: 1px solid #ccc;}
+.cont-top p{
+	font-weight: 700;
+    color: #383838;
+    font-size: 14px;
+    text-indent: 15px;
+    line-height: 41px;
+}
+.cont-register form{
+padding: 40px 0;
+/*text-align: center;*/
+}
+.phone,.passw,.ensur-passw{
+			padding: 8px 0;}
+.ph-box,.pa-box,.en-pa-box{
+	height: 32px;
+	width: 227px;
+	border: 1px solid #e1e1e1;
+	display: inline-block;
+	background: #fff;
+	
+}
+
+.cont-register form i{
+	font-size: 14px;
+    color: #4e4e4e;
+    width: 33%;
+    float: left;
+    text-align: right;
+    padding: 7px 15px 0 0;
+    display: inline-block;
+}
+.cont-register form input{
+	border: 0;
+	 padding: 1px;
+    height: 25px;
+    width: 214px;
+    
+	 }
+/*.code-all{
+}*/
+.but-box{
+	height: 30px;
+	
+	width: 148px;/*line-height: 30px;*/
+	background-color: #87b93c;
+	float: left;
+	
+
+}
+.but-box a{
+	padding: 20px 0 0 20px;
+    line-height: 30px;
+    color: #fff;
+}
+.but-box em{
+	width: 8px;
+    height: 20px;
+    display: inline-block;
+    background: #87b93c url(../images/login_single_page.png) no-repeat 0px -166px;
+}
+.code-input,.code-pic-input{
+	height:28px ;
+	 border: 1px solid #e1e1e1;
+	width: 80px;
+	float: left;
+	margin-left:5px ;
+}
+.cont-register form .code-input input,.cont-register form .code-pic-input input{ width: 65px;
+    height: 22px;
+    
+    }
+   .code-pic-input {margin-right: 10px;}
+.cont-register form strong{  color: #ed1c24;
+	background:url(../images/login_single_page.png) no-repeat 0px 0px;
+	font-size: 12px;
+	font-weight: 200;
+	height: 19px;
+	width: 167px;
+	padding-left: 23px;
+	display: inline-block;
+	vertical-align: middle;
+
+}
+.cont-register form b{color: #87b93c;
+	font-weight: 200;
+	display: none;
+	vertical-align: middle;
+}
+.code-pic a{vertical-align: middle;
+}
+.code-pic .change{
+		color: red;
+		padding-left: 20px;
+}
+.code-pic .send-code{
+	width: 70px;
+    height: 24px;
+    line-height: 24px;
+    color: #fff;
+    margin-left: 70px;
+    display: inline-block;
+    background: #ed1c24;
+    text-align: center;
+   }
+.sub{
+	width: 96px;
+    height: 30px;
+    cursor: pointer;
+    background: #f00;
+    
+  
+    margin-top: 30px;
+    margin-left: 332px;
+}
+.sub button{border:0;
+      background: #f00;
+  		color: #fff;
+    margin-left: 10px;
+    
+   }
+ .sub em{padding:0 10px;
+ 	width: 8px;
+    height: 20px;
+    display: inline-block;
+    background:url(../images/login_single_page.png) no-repeat 0px -166px;}  
+ .sub em:hover{
+ 	background-position:12px -166px;}
+.cont-register form .chck input{height:14px;
+	width: 16px;}
+.chck{margin-top: 30px;
+    margin-left: 333px;}
+.chck em a{color: #d41c4f;}
+.categories-detail {display: none;}
